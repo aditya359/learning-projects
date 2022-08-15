@@ -1,0 +1,48 @@
+*
+{
+    font-family: sans-serif;
+    
+}
+body
+{
+    padding-left: 30%;
+}
+.container1
+{
+    float: left;
+}
+
+.card input
+{
+position: relative;
+height : 22px;
+Display : block;
+color : black;
+border-top : hidden;
+border-left : hidden;
+border-right : hidden;
+border-color : black;
+}
+input
+{
+padding: 10px;
+outline : none;
+border-color : black;
+}
+input:focus,
+input:active
+{
+border-color : transperent;
+border-bottom : 5px solid #0000;
+}
+.card button
+{
+    border: hidden;
+    background-color : white;
+}
+.card button:hover
+{
+    background-color: black;
+    color : white;
+    height: 20px;
+}
